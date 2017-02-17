@@ -39,7 +39,7 @@ function rsj(path,c){
     return 0;
   }
   else{
-    return rsj(path,c++) + rsj(path,c+2) + rsj(path,c+5);
+    return rsj(path,c+1) + rsj(path,c+2) + rsj(path,c+5);
   }
 }
 
